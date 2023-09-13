@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa6';
 import fetchCryptos from '../services/cryptoService';
-import { setCryptos } from '../redux/actions';
+import { setCryptos } from '../redux/actions/actions';
 import CryptoDetails from './CryptoDetails';
 import SearchBar from './SearchBar';
 import './CryptoList.css';
