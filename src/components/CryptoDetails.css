@@ -1,0 +1,62 @@
+.crypto-details {
+  text-align: center;
+}
+
+.crypto-details h2 {
+  margin-top: 2em;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: #eee;
+}
+
+table {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  margin-top: 2em;
+  border: 1px solid whitesmoke;
+  border-collapse: collapse;
+  box-shadow: 0 0 0.7em 0.1em #eee;
+}
+
+table:hover {
+  box-shadow: 0 0 1.5em 0.2em #eee;
+}
+
+th {
+  padding: 1em 2.5em;
+  text-align: left;
+}
+
+td {
+  border: 1px solid whitesmoke;
+  padding: 1em 1.5em;
+}
+
+td:nth-child(odd) {
+  text-align: left;
+  font-weight: bold;
+}
+
+.arrow-link {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  margin: 1em 0 0 0;
+}
+
+.back-arrow {
+  margin: 0 1em 0 0;
+  font-size: 1.5em;
+  border: solid 2px #fff;
+  border-radius: 50%;
+}
+
+.back-arrow:hover {
+  background-color: #fff;
+  color: #b92d6ab7;
+  border: solid 2px #b92d6ab7;
+}
