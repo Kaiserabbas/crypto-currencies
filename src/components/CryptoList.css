@@ -1,0 +1,81 @@
+.crypto-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em;
+  min-width: 14em;
+}
+
+.crypto-card:nth-child(even) {
+  background-color: #cc3a79b7;
+}
+
+.crypto-card:nth-child(odd) {
+  background-color: #d32872c0;
+}
+
+.arrow {
+  color: #fff;
+  display: flex;
+  margin: 10% 10% 0 auto;
+  font-size: 1.5em;
+  border: solid 2px #fff;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.crypto-card:hover {
+  background-color: whitesmoke;
+  color: #b92d6ab7;
+
+  .arrow {
+    background-color: whitesmoke;
+    color: #b92d6ab7;
+    border: solid 2px #b92d6ab7;
+  }
+}
+
+.search {
+  width: 25em;
+  margin: 0 auto;
+  text-align: center;
+  border: 0.1em solid wheat;
+  border-radius: 0.5em;
+}
+
+input {
+  border: none;
+  width: 18em;
+  border-radius: 0.5em;
+  padding: 1em 1.5em;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+button {
+  padding: 1em 1.5em;
+  background: transparent;
+  border: none;
+  border-radius: 0.3em;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #b92d6ab7;
+}
