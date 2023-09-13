@@ -69,9 +69,9 @@ const CryptoDetails = () => {
             </td>
           </tr>
           <tr>
-            <td>Rank:</td>
+            <td>Market CAP (USD):</td>
             <td>
-              {crypto.rank}
+              {crypto.market_cap_usd}
             </td>
           </tr>
           <tr>
