@@ -19,11 +19,11 @@ const CryptoList = () => {
     async function getCryptos() {
       const cryptosData = await fetchCryptos();
       dispatch(setCryptos(cryptosData));
-      setFilteredCryptos(cryptosData);
       setSelectedCrypto(cryptos[0]);
+      setFilteredCryptos(cryptosData);
     }
     getCryptos();
-  }, [dispatch, cryptos]);
+  }, [dispatch]);
 
   const handleSearch = (searchText) => {
     setSearchText(searchText);
