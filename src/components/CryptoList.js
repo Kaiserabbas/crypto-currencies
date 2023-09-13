@@ -45,7 +45,7 @@ const CryptoList = () => {
       </div>
       <div className="crypto-list">
         {filteredCryptos.map((crypto, index) => (
-          <div key={crypto.id} className={`crypto-card ${index % 2 === 0 ? 'even' : 'odd'}`}>
+          <div key={crypto.id} className={`crypto-card ${index % 2 === 0 ? 'even' : 'odd'}`}  data-testid="crypto-card">
             <h3>
               {crypto.name}
               (
