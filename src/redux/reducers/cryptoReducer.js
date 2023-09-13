@@ -1,5 +1,5 @@
 // reducers.js
-import { SET_CRYPTOS } from './actions';
+import { SET_CRYPTOS } from '../actions/actions';
 
 const initialState = {
   cryptos: [],
