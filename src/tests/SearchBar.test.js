@@ -12,7 +12,7 @@ describe('SearchBar component', () => {
     ];
 
     const { getByPlaceholderText } = render(
-      <SearchBar onSearch={onSearchMock} cryptos={cryptos} />
+      <SearchBar onSearch={onSearchMock} cryptos={cryptos} />,
     );
 
     const input = getByPlaceholderText('Search cryptocurrencies...');
@@ -29,7 +29,7 @@ describe('SearchBar component', () => {
     ];
 
     const { getByText, getByPlaceholderText } = render(
-      <SearchBar onSearch={onSearchMock} cryptos={cryptos} />
+      <SearchBar onSearch={onSearchMock} cryptos={cryptos} />,
     );
 
     const input = getByPlaceholderText('Search cryptocurrencies...');

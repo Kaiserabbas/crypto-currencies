@@ -1,10 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import store from '../redux/store'; 
+import store from '../redux/store';
 import cryptoReducer from '../redux/reducers/cryptoReducer';
-describe('Redux Store', () => {
-  let testStore; 
 
- 
+describe('Redux Store', () => {
+  let testStore;
+
   beforeEach(() => {
     testStore = configureStore({
       reducer: {
@@ -22,9 +22,9 @@ describe('Redux Store', () => {
     };
     expect(testStore.getState()).toEqual(expectedInitialState);
   });
-it('should export the configured store', () => {
-  const storeState = store.getState();
-  const testStoreState = testStore.getState();
-  expect(testStoreState).toEqual(storeState);
-});
+  it('should export the configured store', () => {
+    const storeState = store.getState();
+    const testStoreState = testStore.getState();
+    expect(testStoreState).toEqual(storeState);
+  });
 });

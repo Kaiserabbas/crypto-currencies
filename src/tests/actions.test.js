@@ -5,7 +5,7 @@ describe('setCryptos', () => {
     const cryptos = ['Bitcoin', 'Ethereum', 'Litecoin'];
     const expectedAction = {
       type: SET_CRYPTOS,
-      cryptos: cryptos,
+      cryptos,
     };
     expect(setCryptos(cryptos)).toEqual(expectedAction);
   });
