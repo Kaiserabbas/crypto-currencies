@@ -19,7 +19,7 @@ const CryptoList = () => {
     async function getCryptos() {
       const cryptosData = await fetchCryptos();
       dispatch(setCryptos(cryptosData));
-      setSelectedCrypto(cryptos[0]);
+      setSelectedCrypto(cryptosData[0]);
       setFilteredCryptos(cryptosData);
     }
     getCryptos();
