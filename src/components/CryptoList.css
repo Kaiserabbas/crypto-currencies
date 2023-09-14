@@ -1,16 +1,31 @@
 .crypto-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
 }
 
 .crypto-card {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1.5em;
-  min-width: 14em;
+  padding: 1.5em 0;
+  min-width: 12em;
+  min-height: 10em;
+  font-size: 0.8em;
+}
+
+.crypto-card h3 {
+  font-size: 1em;
+}
+
+.crypto-card p {
+  font-size: 0.8em;
+  margin: 0.7em 0;
 }
 
 .crypto-card:nth-child(even) {
@@ -24,9 +39,9 @@
 .arrow {
   color: #fff;
   display: flex;
-  margin: 10% 10% 0 auto;
-  font-size: 1.5em;
-  border: solid 2px #fff;
+  margin: 30% 10% 0 auto;
+  font-size: 1.7em;
+  border: solid 1px #fff;
   padding: 5px;
   border-radius: 50%;
 }
@@ -43,10 +58,10 @@
 }
 
 .search {
-  width: 25em;
-  margin: 0 auto;
+  width: 20em;
+  margin: 0 auto 1em auto;
   text-align: center;
-  border: 0.1em solid wheat;
+  border: 0.1em solid #e2e2e2;
   border-radius: 0.5em;
 }
 
@@ -58,6 +73,7 @@ input {
   background: transparent;
   color: #fff;
   outline: none;
+  font-size: 0.75em;
 }
 
 input::placeholder {
@@ -70,12 +86,6 @@ button {
   border: none;
   border-radius: 0.3em;
   color: #fff;
-  font-weight: bold;
-  font-size: 1em;
-}
-
-button:hover {
+  font-size: 0.9em;
   cursor: pointer;
-  background-color: #fff;
-  color: #b92d6ab7;
 }
