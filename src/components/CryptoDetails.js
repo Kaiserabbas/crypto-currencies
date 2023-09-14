@@ -84,7 +84,7 @@ const CryptoDetails = () => {
       </table>
       <Link to="/" className="arrow-link">
         <IoIosArrowBack className="back-arrow" />
-        Back to CryptoList
+        Back to DashBoard
       </Link>
     </div>
   );
