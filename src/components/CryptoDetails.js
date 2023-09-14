@@ -27,7 +27,7 @@ const CryptoDetails = () => {
   }
 
   return (
-    <div className="crypto-details">
+    <div className="crypto-details" data-testid="Crypto-list">
       <h2>
         {crypto.name}
         (
