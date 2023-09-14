@@ -6,7 +6,9 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+- [Deployment](#deployment)
 - [💻 Getting Started](#getting-started)
+
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
@@ -24,12 +26,17 @@
 **[Crypto-Currencies]** It is a redux/react web application that works with the real live data from the Crypto-Currencies API. The task is to build a web application for a company that provides Crypto-Currencies and their market price detail services. The application will allow users to view stock prices for Crypto-Currencies and analyze the details.
 
 
-https://github.com/Kaiserabbas/crypto-currencies/assets/123939543/0d696263-2f15-45cd-9653-37c71b2f3e01
+
+https://github.com/Kaiserabbas/crypto-currencies/assets/123939543/b0d9324e-8116-4a93-819a-aa885dbffc22
+
+
 
 
 ## 🛠 Built With <a name="built-with"></a>
 React.js, Redux.js, HTML/JavaScript linters using ES6 syntax.
 
+## 🛠 Deployment <a name="deployment"></a>
+[Deployment Link](https://chimerical-figolla-134fa4.netlify.app/)
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
