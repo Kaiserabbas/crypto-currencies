@@ -21,7 +21,7 @@
 
 # 📖 [Crypto-Currencies] <a name="about-project"></a>
 
-**[Crypto-Currencies]** is a redux/react web application that works with the real live data from the Crypto-Currencies API. The task is to build a web application for a company that provides Crypto-Currencies and their market price detail services. The application will allow users to view stock prices for Crypto-Currencies and anylize the details.
+**[Crypto-Currencies]** It is a redux/react web application that works with the real live data from the Crypto-Currencies API. The task is to build a web application for a company that provides Crypto-Currencies and their market price detail services. The application will allow users to view stock prices for Crypto-Currencies and anylize the details.
 
 ## 🛠 Built With <a name="built-with"></a>
 React.js, Redux.js, HTML/JavaScript linters using ES6 syntax.
@@ -126,6 +126,6 @@ I would like to thank Microverse.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](/LICENSE) license.
+This project is [MIT](https://github.com/Kaiserabbas/crypto-currencies/blob/dev/LICENSE) License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
