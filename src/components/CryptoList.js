@@ -40,10 +40,10 @@ const CryptoList = () => {
 
   return (
     <>
-      <div className="search">
+      <div className="search" data-testid="search">
         <SearchBar onSearch={handleSearch} cryptos={cryptos} />
       </div>
-      <div className="crypto-list">
+      <div className="crypto-list" data-testid="Crypto-list">
         {filteredCryptos.map((crypto, index) => (
           <div key={crypto.id} className={`crypto-card ${index % 2 === 0 ? 'even' : 'odd'}`} data-testid="crypto-card">
             <h3>
