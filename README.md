@@ -132,7 +132,7 @@ Kindly give this project a star if you like it.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank Microverse. I would also like to credit to Nelson Sakwa the author of the original design, as required by the Creative Commons License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
