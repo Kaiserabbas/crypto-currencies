@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gill+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', sans-serif;
+}
 
 body {
-  font-family: 'Lato', sans-serif;
   background-color: #ed1e78ce;
   color: #fff;
   text-align: center;
@@ -9,7 +15,7 @@ body {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0 0 0.5em 0;
   text-shadow: 0.03em 0.02em 0.02em rgb(122, 121, 121);
 }
