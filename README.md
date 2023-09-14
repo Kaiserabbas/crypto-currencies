@@ -21,7 +21,11 @@
 
 # 📖 [Crypto-Currencies] <a name="about-project"></a>
 
-**[Crypto-Currencies]** It is a redux/react web application that works with the real live data from the Crypto-Currencies API. The task is to build a web application for a company that provides Crypto-Currencies and their market price detail services. The application will allow users to view stock prices for Crypto-Currencies and anylize the details.
+**[Crypto-Currencies]** It is a redux/react web application that works with the real live data from the Crypto-Currencies API. The task is to build a web application for a company that provides Crypto-Currencies and their market price detail services. The application will allow users to view stock prices for Crypto-Currencies and analyze the details.
+
+
+https://github.com/Kaiserabbas/crypto-currencies/assets/123939543/0d696263-2f15-45cd-9653-37c71b2f3e01
+
 
 ## 🛠 Built With <a name="built-with"></a>
 React.js, Redux.js, HTML/JavaScript linters using ES6 syntax.
