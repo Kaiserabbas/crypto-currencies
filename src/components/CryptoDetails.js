@@ -27,7 +27,7 @@ const CryptoDetails = () => {
   }
 
   return (
-    <div className="crypto-details">
+    <div className="crypto-details" data-testid="Crypto-list">
       <h2>
         {crypto.name}
         (
@@ -84,7 +84,7 @@ const CryptoDetails = () => {
       </table>
       <Link to="/" className="arrow-link">
         <IoIosArrowBack className="back-arrow" />
-        Back to CryptoList
+        Back to DashBoard
       </Link>
     </div>
   );

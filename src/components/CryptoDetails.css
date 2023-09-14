@@ -4,15 +4,14 @@
 
 .crypto-details h2 {
   margin-top: 2em;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
-  text-shadow: #eee;
 }
 
 table {
-  width: 500px;
+  min-width: 300px;
   margin: 0 auto;
-  font-size: 1.2em;
+  font-size: 1em;
   margin-top: 2em;
   border: 1px solid whitesmoke;
   border-collapse: collapse;
@@ -24,13 +23,13 @@ table:hover {
 }
 
 th {
-  padding: 1em 2.5em;
+  padding: 0.5em 1.5em;
   text-align: left;
 }
 
 td {
   border: 1px solid whitesmoke;
-  padding: 1em 1.5em;
+  padding: 0.4em 1em;
 }
 
 td:nth-child(odd) {
@@ -44,14 +43,14 @@ td:nth-child(odd) {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 1em 0 0 0;
 }
 
 .back-arrow {
   margin: 0 1em 0 0;
-  font-size: 1.5em;
-  border: solid 2px #fff;
+  font-size: 1.2em;
+  border: solid 1px #fff;
   border-radius: 50%;
 }
 
