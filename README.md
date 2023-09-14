@@ -36,7 +36,8 @@ https://github.com/Kaiserabbas/crypto-currencies/assets/123939543/b0d9324e-8116-
 React.js, Redux.js, HTML/JavaScript linters using ES6 syntax.
 
 ## 🛠 Deployment <a name="deployment"></a>
-[Deployment Link](https://chimerical-figolla-134fa4.netlify.app/)
+[Deployment Link](https://deploy-preview-4--chimerical-figolla-134fa4.netlify.app/)
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
